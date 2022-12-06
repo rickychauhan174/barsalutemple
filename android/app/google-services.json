@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250287992303",
+    "project_id": "ror-app-e2234",
+    "storage_bucket": "ror-app-e2234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250287992303:android:88a1a25a13cca7dbd19a1a",
+        "android_client_info": {
+          "package_name": "barsalu.temple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250287992303-l99mq0ddojvr21ov1ndl6llrjm34tr39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBTkgQNWlJKWPlhcg23t3VLao3ymDsblU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250287992303-l99mq0ddojvr21ov1ndl6llrjm34tr39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
