@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "250287992303",
-    "project_id": "ror-app-e2234",
-    "storage_bucket": "ror-app-e2234.appspot.com"
+    "project_number": "459122439396",
+    "project_id": "barsalu-temple",
+    "storage_bucket": "barsalu-temple.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:250287992303:android:88a1a25a13cca7dbd19a1a",
+        "mobilesdk_app_id": "1:459122439396:android:b0b175e7c6f7efd0bc68f1",
         "android_client_info": {
           "package_name": "barsalu.temple"
         }
       },
       "oauth_client": [
         {
-          "client_id": "250287992303-l99mq0ddojvr21ov1ndl6llrjm34tr39.apps.googleusercontent.com",
+          "client_id": "459122439396-kf1fv90kulvtl75tp0occvk1qv1iqmuc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBBTkgQNWlJKWPlhcg23t3VLao3ymDsblU"
+          "current_key": "AIzaSyDj2007D__AUDjXt9QNA5xsVUwGXXjLe48"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "250287992303-l99mq0ddojvr21ov1ndl6llrjm34tr39.apps.googleusercontent.com",
+              "client_id": "459122439396-kf1fv90kulvtl75tp0occvk1qv1iqmuc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
