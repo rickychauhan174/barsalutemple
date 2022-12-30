@@ -173,6 +173,15 @@ class Utils {
     }
   }
 
+  static openVideos() async {
+    const url = 'https://www.youtube.com/@avadhbiharidass8870/videos';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
   static openBrowser(String url) async {
     if (await canLaunch(url)) {
       await launch(url);

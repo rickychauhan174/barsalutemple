@@ -1,4 +1,4 @@
-#Mon Dec 05 21:12:45 EST 2022
+#Fri Dec 30 01:44:23 EST 2022
 base.2=/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/app/intermediates/dex/debug/mergeLibDexDebug/classes_0.dex
 base.1=/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/app/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
 base.0=/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex

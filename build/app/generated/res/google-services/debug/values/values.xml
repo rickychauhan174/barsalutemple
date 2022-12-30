@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">250287992303-l99mq0ddojvr21ov1ndl6llrjm34tr39.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">250287992303</string>
-    <string name="google_api_key" translatable="false">AIzaSyBBTkgQNWlJKWPlhcg23t3VLao3ymDsblU</string>
-    <string name="google_app_id" translatable="false">1:250287992303:android:88a1a25a13cca7dbd19a1a</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBBTkgQNWlJKWPlhcg23t3VLao3ymDsblU</string>
-    <string name="google_storage_bucket" translatable="false">ror-app-e2234.appspot.com</string>
-    <string name="project_id" translatable="false">ror-app-e2234</string>
+    <string name="default_web_client_id" translatable="false">459122439396-kf1fv90kulvtl75tp0occvk1qv1iqmuc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">459122439396</string>
+    <string name="google_api_key" translatable="false">AIzaSyDj2007D__AUDjXt9QNA5xsVUwGXXjLe48</string>
+    <string name="google_app_id" translatable="false">1:459122439396:android:b0b175e7c6f7efd0bc68f1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDj2007D__AUDjXt9QNA5xsVUwGXXjLe48</string>
+    <string name="google_storage_bucket" translatable="false">barsalu-temple.appspot.com</string>
+    <string name="project_id" translatable="false">barsalu-temple</string>
 </resources>

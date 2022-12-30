@@ -34,6 +34,7 @@ class DashState extends State<DashboardUI> {
   var menuTitle = [
     "इतिहास",
     "फोटोस",
+    "दानपात्र्",
     "वीडीओस",
     "अन्य ऐप्स",
     "शेयर करे",
@@ -42,8 +43,9 @@ class DashState extends State<DashboardUI> {
   ];
   var menuIcon = [
     "assets/images/history.png",
-    "assets/images/dharamshala.png",
-    "assets/images/suggestion.png",
+    "assets/images/photos.png",
+    "assets/images/rupee.png",
+    "assets/images/video.png",
     "assets/images/otherapp.png",
     "assets/images/share.png",
     "assets/images/about.png",
@@ -73,20 +75,17 @@ class DashState extends State<DashboardUI> {
                   // Banner list
                   isLoading
                       ? Container(
-                          width: MediaQuery.of(context).size.width * 0.90,
-                          height: MediaQuery.of(context).size.height * 0.40,
+                          width: MediaQuery.of(context).size.width * 0.97,
+                          height: MediaQuery.of(context).size.height * 0.35,
                           child: Center(child: PlaceHolderWidget()))
                       : ShapeOfView(
-                          height: MediaQuery.of(context).size.height * 0.40,
-                          shape: BubbleShape(
-                              position: BubblePosition.Bottom,
-                              arrowPositionPercent: 0.5,
-                              borderRadius: 20,
-                              arrowHeight: 15,
-                              arrowWidth: 15),
+                          height: MediaQuery.of(context).size.height * 0.35,
+                          shape: RoundRectShape(
+                              borderRadius: BorderRadius.circular(8),
+                              borderWidth: 0),
                           child: Container(
                               margin: EdgeInsets.all(0),
-                              height: MediaQuery.of(context).size.height * 0.40,
+                              height: MediaQuery.of(context).size.height * 0.35,
                               child: ListView.builder(
                                   shrinkWrap: true,
                                   scrollDirection: Axis.horizontal,
@@ -106,9 +105,9 @@ class DashState extends State<DashboardUI> {
                       itemBuilder: (BuildContext context, int index) {
                         return Card(
                           color: cardColor,
-                          elevation: 15,
-                          shape: CircleBorder(
-                            // borderRadius: BorderRadius.circular(5.0),
+                          elevation: 2,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8.0),
                           ),
                           child: InkWell(
                             onTap: () {
@@ -128,7 +127,7 @@ class DashState extends State<DashboardUI> {
                                 Text(
                                   menuTitle[index],
                                   style: TextStyle(
-                                      color: textColor, fontSize: 18.0),
+                                      color: textColor, fontSize: 18.0 , fontWeight: FontWeight.bold),
                                 )
                               ],
                             ),
@@ -166,7 +165,7 @@ class DashState extends State<DashboardUI> {
         break;
       case 3:
       // Forb
-        Utils.openFaceOfRorBiradari();
+        Utils.openVideos();
         break;
       case 4:
         // Suggestions
@@ -239,7 +238,7 @@ class Banner extends StatelessWidget {
 
         },
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.only(),
           child:
               /*FadeInImage.assetNetwork(
               placeholder: PLACE_HOLDER_IMAGE,
@@ -253,68 +252,9 @@ class Banner extends StatelessWidget {
               CachedNetworkImage(
                   imageUrl: bannerImage,
                   placeholder: (context, url) => PlaceHolderWidget(),
-                  width: MediaQuery.of(context).size.width * 1,
-                  height: MediaQuery.of(context).size.height * 0.40,
+                  width: MediaQuery.of(context).size.width * 0.97,
+                  height: MediaQuery.of(context).size.height * 0.35,
                   fit: BoxFit.cover),
-              Visibility(
-                visible: isHavingUrl ? true : false,
-                child: Positioned(
-                  left: 0.0,
-                  right: 0.0,
-                  bottom: 0.0,
-                  child: Align(
-                    alignment: FractionalOffset.bottomRight,
-                    child: Card(
-                      color: alphaCardColor.withOpacity(0.5),
-                      elevation: 0,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(5.0),
-                      ),
-                      child: InkWell(
-                          onTap: () {
-                            Utils.openBrowser(bannerUrl);
-                          },
-                          child: Padding(
-                              padding: EdgeInsets.only(
-                                  top: 5, right: 5, left: 5, bottom: 15),
-                              child: Text(
-                                "Click to open",
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 15.0, fontWeight: FontWeight.normal),
-                              ))),
-                    ),
-                  ),
-                ),
-              ),
-
-              Visibility(
-                visible: true,
-                child: Positioned(
-                  right: 0.0,
-                  top: 0.0,
-                  child: Align(
-                    alignment: FractionalOffset.topRight,
-                    child: Card(
-                      // color: alphaCardColor.withOpacity(0.4),
-                      color: cardColor.withOpacity(0.5),
-                      elevation: 0,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(5.0),
-                      ),
-                      child: InkWell(
-                          child: Padding(
-                              padding: EdgeInsets.only(
-                                  top: 3, right: 8, left: 8, bottom: 3),
-                              child: Text(
-                                adNumber.toString() + " / " + totalAds.toString(),
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 15.0, fontWeight: FontWeight.normal),
-                              ))),
-                    ),
-                  ),
-                ),
-              )
-
             ],
           ),
         ),
