@@ -47,20 +47,58 @@ class AboutState extends State<AboutUI>{
                     SizedBox(height: 30,),
 
                     // App info 1
-                    Text("This app is developed for the Ram Mandir of Barsalu village.",
+                    Text("Ram Mandir Barsalu Village.",
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),
                     textAlign: TextAlign.center,),
                     SizedBox(height: 30,),
 
-                    // Developed by
-                    Text("Developed & Maintained by",
+                    // Idea by
+                    Text("Special Thanks to",
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),
                       textAlign: TextAlign.center,),
                     SizedBox(height: 5,),
-                    Text("------------------------------------------",
-                      style: TextStyle(color: textColor,
+                    Text("---------------------------",
+                      style: TextStyle(color: Colors.black,
+                          fontSize: 18.0),),
+                    SizedBox(height: 5,),
+
+                    // Syam
+                    Card(
+                      color: cardColor,
+                      elevation: 10,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      child: InkWell(
+                        onTap: () { Utils.openShyamFacebook();},
+                        child: Padding(
+                          padding: EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10),
+                          child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Text("Syam Barsalu",
+                                  style: TextStyle(color: Colors.yellowAccent,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 18.0),
+                                  textAlign: TextAlign.center,),
+                              ]
+                          ),
+                        ),
+                      ),
+                    ),
+
+                    SizedBox(height: 40),
+
+                    // Developed by
+                    Text("App Developed & Maintained by",
+                      style: TextStyle(color: Colors.black,
+                          fontSize: 18.0),
+                      textAlign: TextAlign.center,),
+                    SizedBox(height: 5,),
+                    Text("---------------------------",
+                      style: TextStyle(color: Colors.black,
                           fontSize: 18.0),),
                     SizedBox(height: 5,),
 

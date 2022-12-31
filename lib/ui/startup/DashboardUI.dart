@@ -25,6 +25,7 @@ class DashboardUI extends StatefulWidget {
 
 class DashState extends State<DashboardUI> {
   List<AdsModel> adsList;
+  String historyLink = "";
   var isLoading = true;
   var menuTitle = [
     "इतिहास",
@@ -51,7 +52,7 @@ class DashState extends State<DashboardUI> {
   void initState() {
     super.initState();
     _getAppVersion();
-    // _getBannerList();
+    _getHistoryLink();
     _getAdsList();
   }
 
@@ -159,7 +160,7 @@ class DashState extends State<DashboardUI> {
     switch (index) {
       case 0:
         // History
-        Utils.openHistory();
+        Utils.openHistory(historyLink);
         break;
       case 1:
         // Photos
@@ -199,6 +200,13 @@ class DashState extends State<DashboardUI> {
     if (int.parse(updatedVersion) > int.parse(versionCode)) {
       Utils.showAppUpdateDialog(context);
     }
+  }
+
+  _getHistoryLink() async {
+    var history = await GetItemsFromDb.getHistoryLink();
+    setState(() {
+      historyLink = history;
+    });
   }
 
   _getAdsList() async {

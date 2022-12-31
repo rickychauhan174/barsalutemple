@@ -167,8 +167,7 @@ class Utils {
     }
   }
 
-  static openHistory() async {
-    const url = 'https://villageinfo.in/haryana/karnal/nilokheri/barsalu.html';
+  static openHistory(String url) async {
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -244,6 +243,15 @@ class Utils {
 
   static openRikkiFacebook() async {
     const url = 'https://www.facebook.com/ricky.ror';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
+  static openShyamFacebook() async {
+    const url = 'https://www.facebook.com/shyambarsalu';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
