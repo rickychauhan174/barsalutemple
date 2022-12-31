@@ -156,15 +156,6 @@ class Utils {
     Share.share('Download Ram Mandir Barsalu app from Play Store.\nhttps://play.google.com/store/apps/details?id=barsalu.temple');
   }
 
-  static Future<void> shareDanpatar(BInfoModel info) async {
-    Share.share('Ram Mandir Barsalu दानपात्र्.\n\n' +
-    'नाम:  ' + info.name + '\n' +
-        'अकाउंट नंबर:  ' + info.ac + '\n'+
-    'IFSC Code:  ' + info.ifs + '\n' +
-    'बैंक:  ' + info.bname + '\n' +
-    'ब्रांच:  ' + info.bcity);
-  }
-
   static Future<void> openMoreApps() async {
     if (Platform.isAndroid) {
       AndroidIntent intent = AndroidIntent(

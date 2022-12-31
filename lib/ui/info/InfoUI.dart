@@ -76,31 +76,6 @@ class InfoState extends State<InfoUI>{
                           fontSize: 18.0),),
                     SizedBox(height: 10,),
 
-                    // Rikki
-                    Card(
-                      color: cardColor,
-                      elevation: 10,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.0),
-                      ),
-                      child: InkWell(
-                        onTap: () { Utils.shareDanpatar(info);},
-                        child: Padding(
-                          padding: EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10),
-                          child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children: [
-                                Text("Share",
-                                  style: TextStyle(color: Colors.yellowAccent,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 18.0),
-                                  textAlign: TextAlign.center,),
-                              ]
-                          ),
-                        ),
-                      ),
-                    ),
-
                   ],
                 ),
               ),
