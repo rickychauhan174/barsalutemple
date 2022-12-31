@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:android_intent/android_intent.dart';
 import 'package:device_apps/device_apps.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_barsalutemple/firebase/BInfoModel.dart';
 import 'package:flutter_barsalutemple/util/ColorUtil.dart';
 import 'package:flutter_barsalutemple/util/MyExt.dart';
 import 'package:maps_launcher/maps_launcher.dart';
@@ -45,7 +46,10 @@ class Utils {
   static showAppInfoDialog(BuildContext context) {
     // set up the button
     Widget okButton = FlatButton(
-      child: Text("OK"),
+      child: Text("OK", style: TextStyle(
+          color: textColor,
+          fontWeight: FontWeight.bold,
+          fontSize: 18)),
       onPressed: () {
         Navigator.of(context).pop(); // dismiss dialog
       },
@@ -58,10 +62,10 @@ class Utils {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            'ROR',
+            'Ram Mandir Barsalu',
             style: TextStyle(
                 color: textColor,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.bold,
                 fontSize: 20),
           ),
         ],
@@ -72,7 +76,7 @@ class Utils {
           Text('Version: 1.0.0',
               style: TextStyle(
                   color: textColor,
-                  fontWeight: FontWeight.w300,
+                  fontWeight: FontWeight.normal,
                   fontSize: 20))
         ],
       ),
@@ -142,15 +146,23 @@ class Utils {
     if (Platform.isAndroid) {
       AndroidIntent intent = AndroidIntent(
         action: 'action_view',
-        data: 'https://play.google.com/store/apps/details?'
-            'id=barsalu.temple',
+        data: 'https://play.google.com/store/apps/details?id=barsalu.temple',
       );
       await intent.launch();
     }
   }
 
   static Future<void> shareWithFriends() async {
-    Share.share('Download ROR app from Play Store.\nhttps://play.google.com/store/apps/details?id=barsalu.temple');
+    Share.share('Download Ram Mandir Barsalu app from Play Store.\nhttps://play.google.com/store/apps/details?id=barsalu.temple');
+  }
+
+  static Future<void> shareDanpatar(BInfoModel info) async {
+    Share.share('Ram Mandir Barsalu दानपात्र्.\n\n' +
+    'नाम:  ' + info.name + '\n' +
+        'अकाउंट नंबर:  ' + info.ac + '\n'+
+    'IFSC Code:  ' + info.ifs + '\n' +
+    'बैंक:  ' + info.bname + '\n' +
+    'ब्रांच:  ' + info.bcity);
   }
 
   static Future<void> openMoreApps() async {
@@ -240,7 +252,7 @@ class Utils {
   }
 
   static openRikkiFacebook() async {
-    const url = 'https://www.instagram.com/rikkichouhan/';
+    const url = 'https://www.facebook.com/ricky.ror';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -258,7 +270,7 @@ class Utils {
   }
 
   static openDeepakFacebook() async {
-    const url = 'https://www.instagram.com/deepakkanyanror/';
+    const url = 'https://www.facebook.com/deepak.mathana';
     if (await canLaunch(url)) {
       await launch(url);
     } else {

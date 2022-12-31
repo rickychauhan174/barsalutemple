@@ -43,6 +43,7 @@ dependencies:
   flutter_secure_storage: ^3.3.5
   intl: ^0.16.1
   shape_of_view: ^1.0.2
+  firebase_storage: ^4.0.0
 
 
 

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_barsalutemple/util/ColorUtil.dart';
 import 'package:flutter_barsalutemple/util/Helper.dart';
 import 'DashboardUI.dart';
-import '../villages/VillageListScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

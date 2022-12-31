@@ -4,22 +4,17 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_barsalutemple/ui/marriage/user/UsersListUI.dart';
+import 'package:flutter_barsalutemple/ui/info/InfoUI.dart';
+import 'package:flutter_barsalutemple/ui/photos/PhotosUI.dart';
 import 'package:flutter_barsalutemple/util/Helper.dart';
 import 'package:flutter_barsalutemple/firebase/AdsModel.dart';
 import 'package:flutter_barsalutemple/firebase/GetItemsFromDb.dart';
 import 'package:flutter_barsalutemple/ui/about/AboutusUI.dart';
 import 'package:flutter_barsalutemple/util/ColorUtil.dart';
-import 'package:flutter_barsalutemple/ui/dharamshala/DharamshalaUI.dart';
-import 'package:flutter_barsalutemple/ui/villages/VillageListScreen.dart';
-import 'package:flutter_barsalutemple/ui/marriage/login/LoginUI.dart';
-import 'package:flutter_barsalutemple/util/MySession.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:package_info/package_info.dart';
 import 'package:shape_of_view/shape_of_view.dart';
 
 import '../../util/Utils.dart';
-import '../marriage/user/CreateMarriageProfile.dart';
 
 class DashboardUI extends StatefulWidget {
   @override
@@ -75,7 +70,7 @@ class DashState extends State<DashboardUI> {
                   // Banner list
                   isLoading
                       ? Container(
-                          width: MediaQuery.of(context).size.width * 0.97,
+                          width: MediaQuery.of(context).size.width * 1,
                           height: MediaQuery.of(context).size.height * 0.35,
                           child: Center(child: PlaceHolderWidget()))
                       : ShapeOfView(
@@ -91,14 +86,23 @@ class DashState extends State<DashboardUI> {
                                   scrollDirection: Axis.horizontal,
                                   itemCount: adsList.length,
                                   itemBuilder: (context, index) {
-                                    return Banner(adsList[index], index, adsList.length);
+                                    return Banner(
+                                        adsList[index], index, adsList.length);
                                   })),
                         ),
+
+                  SizedBox(
+                    height: 5,
+                  ),
+                  Text("<<< swipe left <<<",
+                    style: TextStyle(color: Colors.black54,
+                        fontWeight: FontWeight.normal,
+                        fontSize: 18.0),
+                    textAlign: TextAlign.center,),
 
                   Padding(
                     padding:
                         EdgeInsets.only(top: 25, right: 8, left: 8, bottom: 20),
-
                     child: GridView.builder(
                       physics: ScrollPhysics(),
                       shrinkWrap: true,
@@ -127,7 +131,9 @@ class DashState extends State<DashboardUI> {
                                 Text(
                                   menuTitle[index],
                                   style: TextStyle(
-                                      color: textColor, fontSize: 18.0 , fontWeight: FontWeight.bold),
+                                      color: Colors.yellowAccent,
+                                      fontSize: 18.0,
+                                      fontWeight: FontWeight.bold),
                                 )
                               ],
                             ),
@@ -152,36 +158,36 @@ class DashState extends State<DashboardUI> {
   onGridItemClick(int index) {
     switch (index) {
       case 0:
-        // Village list
+        // History
         Utils.openHistory();
         break;
       case 1:
-        // History
-        open(context, DharamshalaUI());
+        // Photos
+        open(context, PhotosUI());
         break;
       case 2:
-        // Dharamshala
-        open(context, DharamshalaUI());
+        // Danpatar
+        open(context, InfoUI());
         break;
       case 3:
-      // Forb
+        // Videos
         Utils.openVideos();
         break;
       case 4:
-        // Suggestions
-        Utils.sendEmail();
-        break;
-      /*case 4:
-        // Ror news
-        Utils.openRorNews();
-        break;*/
-      case 5:
-        // More apps
+        // More Apps
         Utils.openMoreApps();
         break;
-      case 6:
-        // Share
+      case 5:
+        // Share app
         Utils.shareWithFriends();
+        break;
+      case 6:
+        // About
+        open(context, AboutUI());
+        break;
+      case 7:
+        // Rating
+        Utils.openPlayStore();
         break;
     }
   }
@@ -232,10 +238,9 @@ class Banner extends StatelessWidget {
       margin: EdgeInsets.only(right: 10),*/
       child: InkWell(
         onTap: () {
-          if(isHavingUrl) {
+          if (isHavingUrl) {
             Utils.openBrowser(bannerUrl);
           }
-
         },
         child: ClipRRect(
           borderRadius: BorderRadius.only(),
@@ -252,7 +257,7 @@ class Banner extends StatelessWidget {
               CachedNetworkImage(
                   imageUrl: bannerImage,
                   placeholder: (context, url) => PlaceHolderWidget(),
-                  width: MediaQuery.of(context).size.width * 0.97,
+                  width: MediaQuery.of(context).size.width * 1,
                   height: MediaQuery.of(context).size.height * 0.35,
                   fit: BoxFit.cover),
             ],
