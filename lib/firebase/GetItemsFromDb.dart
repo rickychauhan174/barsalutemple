@@ -67,6 +67,20 @@ class GetItemsFromDb {
     return completer.future;
   }
 
+  static Future<String> getTrustMembers() async {
+    Completer<String> completer = new Completer<String>();
+    // var firebaseDB = FirebaseDatabase.instance;
+    firebaseDB.reference()
+        .child("trust")
+        .once()
+        .then( (DataSnapshot snapshot) {
+      String appVersion = snapshot.value.toString();
+      completer.complete(appVersion);
+    });
+
+    return completer.future;
+  }
+
   static Future<String> getAppVersion() async {
     Completer<String> completer = new Completer<String>();
     // var firebaseDB = FirebaseDatabase.instance;

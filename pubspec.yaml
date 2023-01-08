@@ -90,6 +90,7 @@ flutter:
       - assets/images/rupee.png
       - assets/images/photos.png
       - assets/images/video.png
+      - assets/images/team.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

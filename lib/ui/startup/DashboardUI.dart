@@ -7,6 +7,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_barsalutemple/firebase/AdsModel.dart';
 import 'package:flutter_barsalutemple/ui/info/InfoUI.dart';
 import 'package:flutter_barsalutemple/ui/photos/PhotosUI.dart';
+import 'package:flutter_barsalutemple/ui/trust/TrustUi.dart';
 import 'package:flutter_barsalutemple/util/Helper.dart';
 import 'package:flutter_barsalutemple/firebase/GetItemsFromDb.dart';
 import 'package:flutter_barsalutemple/ui/about/AboutusUI.dart';
@@ -31,6 +32,7 @@ class DashState extends State<DashboardUI> {
     "इतिहास",
     "फोटोस",
     "दानपात्र्",
+    "कमेटी",
     "वीडीओस",
     "अन्य ऐप्स",
     "शेयर करे",
@@ -41,6 +43,7 @@ class DashState extends State<DashboardUI> {
     "assets/images/history.png",
     "assets/images/photos.png",
     "assets/images/rupee.png",
+    "assets/images/team.png",
     "assets/images/video.png",
     "assets/images/otherapp.png",
     "assets/images/share.png",
@@ -63,7 +66,7 @@ class DashState extends State<DashboardUI> {
         statusBarColor: statusBarColor,
       ),
       child: Scaffold(
-          backgroundColor: colorPrimary,
+          backgroundColor: backColor,
           body: SafeArea(
             child: SingleChildScrollView(
               child: Column(
@@ -109,7 +112,7 @@ class DashState extends State<DashboardUI> {
                       shrinkWrap: true,
                       itemBuilder: (BuildContext context, int index) {
                         return Card(
-                          color: cardColor,
+                          color: gridColor,
                           elevation: 2,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
@@ -132,7 +135,7 @@ class DashState extends State<DashboardUI> {
                                 Text(
                                   menuTitle[index],
                                   style: TextStyle(
-                                      color: Colors.yellowAccent,
+                                      color: textColorDashboard,
                                       fontSize: 18.0,
                                       fontWeight: FontWeight.bold),
                                 )
@@ -171,22 +174,26 @@ class DashState extends State<DashboardUI> {
         open(context, InfoUI());
         break;
       case 3:
+        // Commette
+        open(context, TrustUi());
+        break;
+      case 4:
         // Videos
         Utils.openVideos();
         break;
-      case 4:
+      case 5:
         // More Apps
         Utils.openMoreApps();
         break;
-      case 5:
+      case 6:
         // Share app
         Utils.shareWithFriends();
         break;
-      case 6:
+      case 7:
         // About
         open(context, AboutUI());
         break;
-      case 7:
+      case 8:
         // Rating
         Utils.openPlayStore();
         break;
