@@ -4,6 +4,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_barsalutemple/firebase/AdsModel.dart';
 import 'package:flutter_barsalutemple/firebase/BInfoModel.dart';
+import 'package:flutter_barsalutemple/firebase/EventsModel.dart';
 import 'PhotosModel.dart';
 import 'VillagesModel.dart';
 
@@ -42,6 +43,24 @@ class GetItemsFromDb {
         adsList.add(AdsModel.fromMap(values, key));
       });
       completer.complete(adsList);
+    });
+
+    return completer.future;
+  }
+
+  static Future<EventsModel> getEvents() async {
+    Completer<EventsModel> completer = new Completer<EventsModel>();
+    // var firebaseDB = FirebaseDatabase.instance;
+    //enable offline support
+    firebaseDB.setPersistenceEnabled(true);
+    var a = firebaseDB.reference()
+        .child("events");
+    a.keepSynced(true);
+    a.once()
+        .then( (DataSnapshot snapshot) {
+      EventsModel event = new EventsModel();
+      event = EventsModel.fromMap(snapshot);
+      completer.complete(event);
     });
 
     return completer.future;
