@@ -45,18 +45,18 @@ class InfoState extends State<InfoUI>{
                   children: [
 
                     SizedBox(height: 30,),
-                    Text("दानपात्र्",
+                    Text("Donation",
                       style: TextStyle(color: Colors.black,
                         fontWeight: FontWeight.w500,
                           fontSize: 30.0),),
                     SizedBox(height: 15,),
                     // Version
-                    Text("नाम: " + info.name,
+                    Text("Name: " + info.name,
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),),
                     SizedBox(height: 10,),
 
-                    Text("अकाउंट नंबर: " + info.ac,
+                    Text("Account No: " + info.ac,
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),),
                     SizedBox(height: 10,),
@@ -66,12 +66,12 @@ class InfoState extends State<InfoUI>{
                           fontSize: 18.0),),
                     SizedBox(height: 10,),
 
-                    Text("बैंक: " + info.bname,
+                    Text("Bank: " + info.bname,
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),),
                     SizedBox(height: 10,),
 
-                    Text("ब्रांच: " + info.bcity,
+                    Text("Branch: " + info.bcity,
                       style: TextStyle(color: Colors.black,
                           fontSize: 18.0),),
                     SizedBox(height: 10,),

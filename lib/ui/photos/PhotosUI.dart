@@ -29,7 +29,7 @@ class DashState extends State<PhotosUI> {
         backgroundColor: cardColor,
 
         title: Text(
-          'फोटोस',
+          'Gallery',
           style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,

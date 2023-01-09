@@ -29,7 +29,7 @@ class TrustState extends State<TrustUi> {
         backgroundColor: cardColor,
 
         title: Text(
-          'कमेटी मेंबर्स',
+          'Members',
           style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,

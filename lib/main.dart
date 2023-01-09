@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: mrgDark
       ),
-      fontFamily: 'Montserrat'
+      fontFamily: 'Rye'
       ),
     );
   }

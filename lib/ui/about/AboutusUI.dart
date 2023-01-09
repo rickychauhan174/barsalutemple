@@ -35,33 +35,26 @@ class AboutState extends State<AboutUI>{
                   children: [
 
                     SizedBox(height: 30,),
-                    Text("Ram Mandir Barsalu",
+                    Text("Sita Ram Mandir Barsalu",
                       style: TextStyle(color: Colors.black,
                         fontWeight: FontWeight.w500,
-                          fontSize: 30.0),),
+                          fontSize: 22.0),),
                     SizedBox(height: 5,),
                     // Version
                     Text("Version 1.0.0",
                       style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),),
-                    SizedBox(height: 30,),
-
-                    // App info 1
-                    Text("Ram Mandir Barsalu Village.",
-                      style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),
-                    textAlign: TextAlign.center,),
+                          fontSize: 16.0),),
                     SizedBox(height: 30,),
 
                     // Idea by
                     Text("Special Thanks to",
                       style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),
+                          fontSize: 16.0),
                       textAlign: TextAlign.center,),
                     SizedBox(height: 5,),
                     Text("---------------------------",
                       style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),),
+                          fontSize: 16.0),),
                     SizedBox(height: 5,),
 
                     // Syam
@@ -81,7 +74,7 @@ class AboutState extends State<AboutUI>{
                                 Text("Syam Barsalu",
                                   style: TextStyle(color: Colors.yellowAccent,
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 18.0),
+                                      fontSize: 16.0),
                                   textAlign: TextAlign.center,),
                               ]
                           ),
@@ -94,12 +87,12 @@ class AboutState extends State<AboutUI>{
                     // Developed by
                     Text("App Developed & Maintained by",
                       style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),
+                          fontSize: 16.0),
                       textAlign: TextAlign.center,),
                     SizedBox(height: 5,),
                     Text("---------------------------",
                       style: TextStyle(color: Colors.black,
-                          fontSize: 18.0),),
+                          fontSize: 16.0),),
                     SizedBox(height: 5,),
 
                     // Rikki
@@ -119,7 +112,7 @@ class AboutState extends State<AboutUI>{
                                 Text("Rikki Chouhan\n(Abhimanyupur)",
                                   style: TextStyle(color: Colors.yellowAccent,
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 18.0),
+                                      fontSize: 16.0),
                                   textAlign: TextAlign.center,),
                               ]
                           ),
@@ -146,7 +139,7 @@ class AboutState extends State<AboutUI>{
                               Text("Deepak Kanyan\n(Mathana)",
                               style: TextStyle(color: Colors.yellowAccent,
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 18.0),
+                                  fontSize: 16.0),
                               textAlign: TextAlign.center,),
                             ]
                           ),

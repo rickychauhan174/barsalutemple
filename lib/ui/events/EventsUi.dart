@@ -30,7 +30,7 @@ class EventsState extends State<EventsUi> {
         backgroundColor: cardColor,
 
         title: Text(
-          'कार्यक्रम',
+          'Events',
           style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w500,
@@ -96,6 +96,7 @@ class EventsState extends State<EventsUi> {
                                     color: Colors.black,
                                     fontWeight: FontWeight.w500,
                                     fontSize: 18),
+                                  textAlign: TextAlign.center
                               ),
                             )
                           ],

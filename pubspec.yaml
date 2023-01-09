@@ -119,6 +119,15 @@ flutter:
           weight: 400
         - asset: assets/fonts/Light.ttf
           weight: 200
+
+     - family: Rye
+       fonts:
+         - asset: assets/fonts/Rye-Regular.ttf
+
+     - family: Spirax
+       fonts:
+         - asset: assets/fonts/Spirax-Regular.ttf
+
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

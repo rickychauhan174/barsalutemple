@@ -30,16 +30,26 @@ class DashState extends State<DashboardUI> {
   String historyLink = "";
   var isLoading = true;
   var menuTitle = [
-    "इतिहास",
-    "फोटोस",
-    "दानपात्र्",
-    "कार्यक्रम",
-    "कमेटी",
-    "वीडीओस",
-    "अन्य ऐप्स",
-    "शेयर करे",
-    "ऐप के बारे में",
-    "रेटिंग",
+    // "इतिहास",
+    // "फोटोस",
+    // "दानपात्र्",
+    // "कार्यक्रम",
+    // "कमेटी",
+    // "वीडीओस",
+    // "अन्य ऐप्स",
+    // "शेयर करे",
+    // "ऐप के बारे में",
+    // "रेटिंग",
+    "History",
+    "Gallery",
+    "Donation",
+    "Events",
+    "Members",
+    "Videos",
+    "More Apps",
+    "Share",
+    "About",
+    "Rating",
   ];
   var menuIcon = [
     "assets/images/history.png",
@@ -109,7 +119,7 @@ class DashState extends State<DashboardUI> {
 
                   Padding(
                     padding:
-                        EdgeInsets.only(top: 25, right: 8, left: 8, bottom: 20),
+                        EdgeInsets.only(top: 15, right: 8, left: 8, bottom: 20),
                     child: GridView.builder(
                       physics: ScrollPhysics(),
                       shrinkWrap: true,
@@ -139,7 +149,7 @@ class DashState extends State<DashboardUI> {
                                   menuTitle[index],
                                   style: TextStyle(
                                       color: Colors.black,
-                                      fontSize: 20.0,
+                                      fontSize: 16.0,
                                       fontWeight: FontWeight.normal),
                                 )
                               ],
