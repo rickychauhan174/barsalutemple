@@ -53,8 +53,8 @@
 35        android:debuggable="true"
 36        android:icon="@mipmap/ic_launcher"
 36-->/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:12:9-43
-37        android:label="Barsalu Mandir"
-37-->/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:10:9-39
+37        android:label="SRM Barsalu"
+37-->/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:10:9-36
 38        android:usesCleartextTraffic="true" >
 38-->/Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:11:9-44
 39        <activity

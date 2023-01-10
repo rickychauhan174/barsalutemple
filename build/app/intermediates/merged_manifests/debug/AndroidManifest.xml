@@ -34,7 +34,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Barsalu Mandir"
+        android:label="SRM Barsalu"
         android:usesCleartextTraffic="true" >
         <activity
             android:name="barsalu.temple.MainActivity"

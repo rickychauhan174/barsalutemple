@@ -28,12 +28,31 @@ class _SplashScreenState extends State<SplashScreen> {
         height: double.infinity,
         child: Align(
           alignment: Alignment.center,
-          child: Image.asset(
-          "assets/images/temple.png",
-          width: MediaQuery.of(context).size.width * 0.5,
-          height: MediaQuery.of(context).size.height * 0.5,
-            fit: BoxFit.contain,
-    ),
+          child: Container(
+            width: 300, height: 300,
+            child: Column(
+              children:[
+                Image.asset(
+                  "assets/images/temple.png",
+                  width: 180,
+                  height: 180,
+                  fit: BoxFit.fill,
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Text(
+                  "Sita Ram Mandir\nBarsalu",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 28.0,
+                      fontWeight: FontWeight.normal),
+                  textAlign: TextAlign.center
+                  ,
+                )
+              ],
+            ),
+          ),
         )
     ));
   }

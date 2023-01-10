@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="barsalu.temple.Application"
-        android:label="Barsalu Mandir"
+        android:label="SRM Barsalu"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
         <activity
