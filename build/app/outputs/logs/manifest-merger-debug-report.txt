@@ -1,41 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
-INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
-INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
-INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
-MERGED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
-MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
+INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
+MERGED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
+MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
+MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_maps_flutter] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-20:12
-MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
 MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:17:1-45:12
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b10b4c8c7a137a312782ea9d4982a234/jetified-firebase-core-17.5.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/29a5aa83df744b7318d3d8a90847f6fa/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/d5d9d5e8761a39a9282f26d77ea71887/jetified-play-services-measurement-sdk-17.6.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7d9ef4dca09388db3a2083367bce7ae1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:2:1-23:12
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/aebfc1deef384474704997ecb99ad285/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/ceadd66159e06682170b449c6f693477/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/6bd228913f9b88c6aa0940fa0aacbae1/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
@@ -50,11 +48,13 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /U
 MERGED from [com.google.android.gms:play-services-measurement-base:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/5db0444354fc616440c97a76af7e363a/jetified-play-services-measurement-base-17.6.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/527f8c38eeb5bdf0658216a32a4b1a5f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4154659ce3120453a4d8f023b401f17a/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/694cda30c3dba243c328f7736491993a/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/c63954f9f4c4d56f63cb330081f78d25/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/ede5c9fc0676c7e865a2a8eb97e649fb/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/121c25f262f065538f5c0d7f616d5cfb/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/3ba9d96a672d511ebfb8e2eddcf5d784/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b30e1f26da61ded22dfcaee59957a5b6/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7028ba2049a7351bfbb860984248db17/jetified-transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/fff345f5872f84b482c214b9c76d2adb/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
@@ -78,36 +78,36 @@ INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/ap
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-53:12
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:1-54:12
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:8:5-52:19
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:8:5-53:19
+MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
 MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-18:19
-MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
-MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-17:19
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:22:5-43:19
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:22:5-43:19
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:29:5-37:19
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:29:5-37:19
-MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b10b4c8c7a137a312782ea9d4982a234/jetified-firebase-core-17.5.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b10b4c8c7a137a312782ea9d4982a234/jetified-firebase-core-17.5.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/29a5aa83df744b7318d3d8a90847f6fa/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/29a5aa83df744b7318d3d8a90847f6fa/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:28:5-44:19
@@ -120,10 +120,10 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7d9ef4dca09388db3a2083367bce7ae1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7d9ef4dca09388db3a2083367bce7ae1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:29:5-37:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/ceadd66159e06682170b449c6f693477/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
@@ -165,13 +165,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/Rikk
 	android:name
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:9:9-50
 activity#barsalu.temple.MainActivity
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:13:9-46:20
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:13:9-47:20
 	android:launchMode
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:20:13-36
 	android:configChanges
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:17:13-163
 	android:theme
@@ -179,81 +181,83 @@ ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/s
 	android:name
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:14:13-41
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:24:13-27:17
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:25:13-28:17
 	android:resource
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:26:15-52
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:27:15-52
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:25:15-70
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:26:15-70
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:29:13-30:74
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:30:13-31:74
 	android:value
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:30:17-72
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:31:17-72
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:29:24-69
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:30:24-69
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:38:13-41:17
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:39:13-42:17
 	android:resource
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:40:15-61
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:41:15-61
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:39:15-79
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:40:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:42:13-45:29
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:43:13-46:29
 action#android.intent.action.MAIN
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:43:17-68
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:44:17-68
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:43:25-66
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:44:17-76
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:45:17-76
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:45:27-74
 meta-data#flutterEmbedding
-ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:49:9-51:33
+ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:50:9-52:33
 	android:value
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:51:13-30
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:52:13-30
 	android:name
-		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:50:13-44
+		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml:51:13-44
 uses-sdk
 INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/main/AndroidManifest.xml
-MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:google_maps_flutter] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:maps_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/maps_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:flutter_secure_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:android_intent] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/android_intent/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b10b4c8c7a137a312782ea9d4982a234/jetified-firebase-core-17.5.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.5.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b10b4c8c7a137a312782ea9d4982a234/jetified-firebase-core-17.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/29a5aa83df744b7318d3d8a90847f6fa/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/29a5aa83df744b7318d3d8a90847f6fa/jetified-firebase-analytics-17.6.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:20:5-44
@@ -266,18 +270,12 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7d9ef4dca09388db3a2083367bce7ae1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7d9ef4dca09388db3a2083367bce7ae1/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/aebfc1deef384474704997ecb99ad285/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/aebfc1deef384474704997ecb99ad285/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/ceadd66159e06682170b449c6f693477/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
@@ -306,6 +304,8 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rikki/
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/527f8c38eeb5bdf0658216a32a4b1a5f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4154659ce3120453a4d8f023b401f17a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4154659ce3120453a4d8f023b401f17a/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/70fee41420c5a204574a205d159e75c4/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/694cda30c3dba243c328f7736491993a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/694cda30c3dba243c328f7736491993a/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/c63954f9f4c4d56f63cb330081f78d25/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -316,6 +316,8 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/Rikki/.gradle/caches/t
 MERGED from [androidx.customview:customview:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/121c25f262f065538f5c0d7f616d5cfb/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/3ba9d96a672d511ebfb8e2eddcf5d784/core-1.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/3ba9d96a672d511ebfb8e2eddcf5d784/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/cc9854c39ef09e3ac767272688352f2d/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b30e1f26da61ded22dfcaee59957a5b6/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b30e1f26da61ded22dfcaee59957a5b6/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7028ba2049a7351bfbb860984248db17/jetified-transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
@@ -354,22 +356,22 @@ INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/ap
 		INJECTED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/db56cc25fe4514f65b2eb7229a73809d/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:23:5-67
@@ -378,28 +380,24 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /User
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/b30e1f26da61ded22dfcaee59957a5b6/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/android/app/src/debug/AndroidManifest.xml:6:22-64
-uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
-	android:name
-		ADDED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
 MERGED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:36:9-42:19
 MERGED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:36:9-42:19
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:30:9-36:19
-MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/149389eba2c56ddbcde1e0e40f694e34/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
@@ -413,7 +411,13 @@ MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/Rikki/.gradle/ca
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/075add337516e4f6202b79f57c12a79c/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_storage] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
@@ -436,6 +440,12 @@ ADDED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsa
 		ADDED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
 	android:name
 		ADDED from [:firebase_messaging] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 activity#io.flutter.plugins.urllauncher.WebViewActivity
 ADDED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
 	android:exported
@@ -444,12 +454,6 @@ ADDED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemp
 		ADDED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_database] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 provider#io.flutter.plugins.share.ShareFileProvider
 ADDED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
@@ -466,12 +470,10 @@ ADDED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/buil
 		ADDED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-65
 	android:name
 		ADDED from [:share] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/share/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
 	android:name
-		ADDED from [:firebase_core] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+		ADDED from [:device_apps] /Users/Rikki/Documents/My-Projects/Temple/barsalutemple/build/device_apps/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:28:9-35:19
 	android:exported
@@ -487,21 +489,21 @@ ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/77d1fdcf893abaf47334a1afefb96105/jetified-firebase-messaging-21.0.0/AndroidManifest.xml:40:17-119
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:26:5-79
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/db56cc25fe4514f65b2eb7229a73809d/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:24:5-79
@@ -511,23 +513,29 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /User
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7028ba2049a7351bfbb860984248db17/jetified-transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/7028ba2049a7351bfbb860984248db17/jetified-transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:26:22-76
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-iid:21.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/52aef079af3fd0c80aa0f2a135645565/jetified-firebase-iid-21.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/4b4129356d4e33cb099524eeb883fd18/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/2e20e4089ec484038ceed5466f3f2239/jetified-play-services-measurement-impl-17.6.0/AndroidManifest.xml:25:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1dbefb40bf6da4a4f2202dd93656687f/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/db56cc25fe4514f65b2eb7229a73809d/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/db56cc25fe4514f65b2eb7229a73809d/jetified-play-services-measurement-sdk-api-17.6.0/AndroidManifest.xml:25:5-68
 	android:name
@@ -596,24 +604,18 @@ ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/
 		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement-api:17.6.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/e1c25d20dbdcc19e29ed74631346a560/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
-uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/1acc0b95caf7aaad7cf84c2a9ba68bef/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
 ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
 	android:value
 		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/04fa1912dfb1030cb451de1b9af77f34/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/05fcf96affcee5212160d9d739787134/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
 ADDED from [com.google.firebase:firebase-database:19.5.0] /Users/Rikki/.gradle/caches/transforms-2/files-2.1/01fca7d371436de765127ceb9593ea3e/jetified-firebase-database-19.5.0/AndroidManifest.xml:32:13-34:85
 	android:value
