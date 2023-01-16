@@ -37,7 +37,6 @@ dependencies:
   cached_network_image: ^2.3.3
   firebase_messaging: ^7.0.3
   device_apps: ^1.2.0
-  google_maps_flutter: ^1.0.6
   maps_launcher: ^1.2.2+2
   dio: ^3.0.9
   flutter_secure_storage: ^3.3.5
