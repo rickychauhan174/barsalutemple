@@ -32,11 +32,10 @@ dependencies:
   firebase_core: ^0.5.3
   share: ^0.6.5+4
   url_launcher: ^5.7.10
-  android_intent: ^0.3.7+2
+  android_intent_plus: ^3.1.6
   package_info: ^0.4.0+13
   cached_network_image: ^2.3.3
   firebase_messaging: ^7.0.3
-  device_apps: ^1.2.0
   maps_launcher: ^1.2.2+2
   dio: ^3.0.9
   flutter_secure_storage: ^3.3.5
@@ -90,6 +89,7 @@ flutter:
       - assets/images/photos.png
       - assets/images/video.png
       - assets/images/team.png
+      - assets/images/cal.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

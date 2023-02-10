@@ -28,6 +28,8 @@ class DashboardUI extends StatefulWidget {
 class DashState extends State<DashboardUI> {
   List<AdsModel> adsList;
   String historyLink = "";
+  String videoLink = "";
+  String panchangLink = "";
   var isLoading = true;
   var menuTitle = [
     // "इतिहास",
@@ -43,6 +45,7 @@ class DashState extends State<DashboardUI> {
     "History",
     "Gallery",
     "Donation",
+    "Panchang",
     "Events",
     "Members",
     "Videos",
@@ -55,6 +58,7 @@ class DashState extends State<DashboardUI> {
     "assets/images/history.png",
     "assets/images/photos.png",
     "assets/images/rupee.png",
+    "assets/images/cal.png",
     "assets/images/ic_news.png",
     "assets/images/team.png",
     "assets/images/video.png",
@@ -69,6 +73,8 @@ class DashState extends State<DashboardUI> {
     super.initState();
     _getAppVersion();
     _getHistoryLink();
+    _getVideoLink();
+    _getPanchangLink();
     _getAdsList();
   }
 
@@ -187,30 +193,34 @@ class DashState extends State<DashboardUI> {
         open(context, InfoUI());
         break;
       case 3:
-        // Danpatar
-        open(context, EventsUi());
+        // Panhang
+        Utils.openPanchang(panchangLink);
         break;
       case 4:
+        // Events
+        open(context, EventsUi());
+        break;
+      case 5:
         // Commette
         open(context, TrustUi());
         break;
-      case 5:
-        // Videos
-        Utils.openVideos();
-        break;
       case 6:
+        // Videos
+        Utils.openVideos(videoLink);
+        break;
+      case 7:
         // More Apps
         Utils.openMoreApps();
         break;
-      case 7:
+      case 8:
         // Share app
         Utils.shareWithFriends();
         break;
-      case 8:
+      case 9:
         // About
         open(context, AboutUI());
         break;
-      case 9:
+      case 10:
         // Rating
         Utils.openPlayStore();
         break;
@@ -230,6 +240,20 @@ class DashState extends State<DashboardUI> {
     var history = await GetItemsFromDb.getHistoryLink();
     setState(() {
       historyLink = history;
+    });
+  }
+
+  _getVideoLink() async {
+    var video = await GetItemsFromDb.getVideoLink();
+    setState(() {
+      videoLink = video;
+    });
+  }
+
+  _getPanchangLink() async {
+    var panch = await GetItemsFromDb.getPanchangLink();
+    setState(() {
+      panchangLink = panch;
     });
   }
 

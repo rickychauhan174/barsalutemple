@@ -1,10 +1,8 @@
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:android_intent/android_intent.dart';
-import 'package:device_apps/device_apps.dart';
+import 'package:android_intent_plus/android_intent.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_barsalutemple/firebase/BInfoModel.dart';
 import 'package:flutter_barsalutemple/util/ColorUtil.dart';
 import 'package:flutter_barsalutemple/util/MyExt.dart';
 import 'package:maps_launcher/maps_launcher.dart';
@@ -16,7 +14,7 @@ const String PLACE_HOLDER_IMAGE = "assets/images/placeholder.png";
 class Utils {
   static showAppUpdateDialog(BuildContext context) {
     // set up the button
-    Widget okButton = FlatButton(
+    Widget okButton = TextButton(
       child: Text("UPDATE"),
       onPressed: () {
         Navigator.of(context).pop();// dismiss dialog
@@ -45,7 +43,7 @@ class Utils {
 
   static showAppInfoDialog(BuildContext context) {
     // set up the button
-    Widget okButton = FlatButton(
+    Widget okButton = TextButton(
       child: Text("OK", style: TextStyle(
           color: textColor,
           fontWeight: FontWeight.bold,
@@ -96,7 +94,7 @@ class Utils {
 
   static showMesageDialog(BuildContext context, String title, String message) {
     // set up the button
-    Widget okButton = FlatButton(
+    Widget okButton = TextButton(
       child: Text("OK"),
       onPressed: () {
         Navigator.of(context).pop(); // dismiss dialog
@@ -167,39 +165,22 @@ class Utils {
     }
   }
 
-  static openHistory(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+  static openHistory(String urlHistory) async {
+    await launch(urlHistory);
   }
 
-  static openVideos() async {
-    const url = 'https://www.youtube.com/@avadhbiharidass8870/videos';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+  static openPanchang(String url) async {
+    await launch(url);
+  }
+
+  static openVideos(String video) async {
+    await launch(video);
   }
 
   static openBrowser(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+    await launch(url);
   }
 
-  static openRorNews() async {
-    const url = 'http://ror24x7tv.com';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
 
   static Future<void> openMap(String latlng, String villageName) async {
     if(latlng.isNotEmpty) {
@@ -207,26 +188,6 @@ class Utils {
       var lat = double.tryParse(locArr[0]);
       var lng = double.tryParse(locArr[1]);
       MapsLauncher.launchCoordinates(lat, lng, villageName);
-    }
-  }
-
-  static openFitMe() async {
-    var appPackage = "com.fit.me";
-    bool isInstalled = await DeviceApps.isAppInstalled(appPackage);
-    if(isInstalled) {
-      DeviceApps.openApp(appPackage);
-    }else{
-      openAppOnPlayStore(appPackage);
-    }
-  }
-
-  static openMyYogaLife() async {
-    var appPackage = "com.dpk.mylifemyyoga";
-    bool isInstalled = await DeviceApps.isAppInstalled(appPackage);
-    if(isInstalled) {
-      DeviceApps.openApp(appPackage);
-    }else{
-      openAppOnPlayStore(appPackage);
     }
   }
 
@@ -243,58 +204,17 @@ class Utils {
 
   static openRikkiFacebook() async {
     const url = 'https://www.facebook.com/ricky.ror';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+    await launch(url);
   }
 
   static openShyamFacebook() async {
     const url = 'https://www.facebook.com/shyambarsalu';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
-
-  static openFaceOfRorBiradari() async {
-    const url = 'https://www.youtube.com/channel/UCfVRZyBuoFx0P-ojwwaMHOA';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+    await launch(url);
   }
 
   static openDeepakFacebook() async {
     const url = 'https://www.facebook.com/deepak.mathana';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
-
-  static openVishalFacebook() async {
-    const url = 'https://www.facebook.com/vishal.graakror';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
-
-  static sendEmail() async {
-    // Android and iOS
-    const uri =
-        'mailto:hr07apps@gmail.com?subject=ROR App | Suggestions&body=Hello,';
-    if (await canLaunch(uri)) {
-      await launch(uri);
-    } else {
-      throw 'Could not launch $uri';
-    }
+    await launch(url);
   }
 
   Future<bool> showBottomMsg(context, msg) async{
@@ -323,7 +243,7 @@ class Utils {
                   style: TextStyle(color: Colors.black),
                 ),
                 SizedBox(height: 10,),
-                FlatButton(onPressed: (){
+                TextButton(onPressed: (){
                   Navigator.pop(context,true);
                 }, child: Text("OK"))
               ],

@@ -128,6 +128,34 @@ class GetItemsFromDb {
     return completer.future;
   }
 
+  static Future<String> getVideoLink() async {
+    Completer<String> completer = new Completer<String>();
+    // var firebaseDB = FirebaseDatabase.instance;
+    firebaseDB.reference()
+        .child("video")
+        .once()
+        .then( (DataSnapshot snapshot) {
+      String appVersion = snapshot.value.toString();
+      completer.complete(appVersion);
+    });
+
+    return completer.future;
+  }
+
+  static Future<String> getPanchangLink() async {
+    Completer<String> completer = new Completer<String>();
+    // var firebaseDB = FirebaseDatabase.instance;
+    firebaseDB.reference()
+        .child("panchang")
+        .once()
+        .then( (DataSnapshot snapshot) {
+      String appVersion = snapshot.value.toString();
+      completer.complete(appVersion);
+    });
+
+    return completer.future;
+  }
+
   static Future<List<String>> getBannerList() async {
     Completer<List<String>> completer = new Completer<List<String>>();
     // var firebaseDB = FirebaseDatabase.instance;

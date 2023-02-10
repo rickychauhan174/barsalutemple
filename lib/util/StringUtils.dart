@@ -1,13 +1,5 @@
 import 'dart:io';
 
-import 'package:android_intent/android_intent.dart';
-import 'package:device_apps/device_apps.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_barsalutemple/util/ColorUtil.dart';
-import 'package:maps_launcher/maps_launcher.dart';
-import 'package:share/share.dart';
-import 'package:url_launcher/url_launcher.dart';
-
 class StringUtils {
   static List<String> haryanaDistrictsList = <String>[
     'Select district',

@@ -1,27 +1,26 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/maps_launcher-1.2.2+2" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_secure_storage-3.3.5" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core-0.5.3" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_storage-4.0.1" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_web-0.1.5+3" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/share-0.6.5+4" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher-5.7.10" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_messaging-7.0.3" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_windows-0.0.1+3" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/package_info-0.4.3+4" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/android_intent-0.3.7+7" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher-5.7.10" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_storage-4.0.1" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core_web-0.2.1+1" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.7" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_database-4.4.0" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_macos-0.0.1+9" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider-2.0.11" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/device_apps-1.3.0" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/sqflite-2.2.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_secure_storage-3.3.5" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/maps_launcher-1.2.2+2" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/share-0.6.5+4" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_linux-0.0.1+4" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_windows-0.0.1+3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_core-0.5.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firebase_messaging-7.0.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/url_launcher_web-0.1.5+3" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_ios-2.0.11" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/sqflite-2.2.4+1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.3" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider-2.0.11" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.7" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/android_intent_plus-3.1.6" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
